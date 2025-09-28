@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@200..900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #f89ccf;
+}
+
+.box-profile-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+    height: 90vh;
+    width: 70vw;
+
+    align-items: center;
+    padding: 10px;
+    margin: auto;         
+                     
+    text-align: center;
+    font-size: larger;
+    
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    border: 5px solid #e6007e;
+    
+}
+
+.about-video-box{
+    text-align: center;
+    border: 5px solid #e6007e;
+    border-radius: 2rem;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+
+    font-size: larger;
+}
+
+.box-contact{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    width:  100vw;
+    height:auto;
+    background-color: #e6007e; 
+    color: white;
+    font-size: 1rem;
+}
+.box-contact a{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.box-contact a:hover{
+    color: #1900ff;
+    
+}
+
+
+.box-profile-table{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+    border: 5px solid #e6007e;
+    border-radius: 2rem;
+
+    font-size: 1.2rem;
+}
+thead,th,td{
+    background-color: #f89ccfb7;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+}
+.tbody{
+    font-weight: normal;
+
+}
+table{
+    margin: auto;
+    
+}
+
+.btn-link-1{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    margin: 5px;
+}
+.btn-link-1:hover{
+    background-color: darkgreen;
+}
+
+.btn-link-2{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    margin: 5px;
+}
+.btn-link-2:hover{
+    background-color: darkblue;
+}
+
+.hobbies-box{
+    text-align: center;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+    border: 5px solid #e6007e;
+    border-radius: 2rem;
+
+    font-size: 1.2rem;
+}
