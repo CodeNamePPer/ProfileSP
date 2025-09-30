@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
@@ -11,30 +11,52 @@
     <div class="box-main">
         <img src="img/new_logo_spu01.gif" style="width: 10rem;margin: 2rem; " alt="">
         <br>
-        <div class="box-profile-main">
-            <img  style="width: 20rem; border-radius: 2rem; " src="img/mypic.jpg" alt="">
+        <div class="navbar">
+            <div class="link-ref" >
+                <a class="btn-link-1" href="#box-profile-main"><i class="fa-solid fa-user"></i></i>Profile</a>
+                <a class="btn-link-2" href="#about-video-box"><i class="fa-regular fa-address-card"></i></i>About Me</a>
+                <a class="btn-link-3" href="#hobbies-box"><i class="fa-solid fa-mountain-sun"></i></i></i>Hobbies</a>   
+                <a class="btn-link-4" href="#box-profile-table"><i class="fa-solid fa-list-check"></i>Projects</a>
+                <a class="btn-link-5" href="#box-contact"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+            
+             </div> 
+        </div>
+        <br>
+        <div class="box-profile-main" id="box-profile-main">
+            <h1>My Name is Paper</h1>
+            <img  style="width: 20rem; border-radius: 160px; border: #e6007e solid 3px; " src="img/mypic.jpg" alt="">
              <h3>Eittiwat Kunpichai</h3>
              <span>อิทธิวรรธน์ ขุนพิชัย </span>
              <p style="color: #e6007e; font-weight: 800;" >SPU Sripatum University</p>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, pariatur aut! Quae inventore facilis, veniam numquam iste nemo consequatur ad illo. Tempore a et nihil assumenda temporibus, labore explicabo fugit!</p>
-             <div class="link-ref" >
-                <a class="btn-link-1" href="#box-profile-table" style="text-decoration: none;" ><i class="fa-solid fa-list-check"></i>Projects</a>
-                <a class="btn-link-2" href="#box-contact" style="text-decoration: none;" ><i class="fa-solid fa-phone-volume"></i>Contact</a> 
-             </div>
+             
              
         </div>
         <br><br><br>
-        <div class="about-video-box">
+        <div class="about-video-box" id="about-video-box">
             <h1>About Me</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Hz5h6wYIRTg?si=HcGdwycqEpbMsBvb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis assumenda tempora deleniti, sapiente autem asperiores maxime ipsam ullam soluta amet laborum enim. Deleniti libero eligendi dolore, sequi quod totam odio.</p>
         </div>
         <br><br><br>
-        <div class="hobbies-box">
+        <div class="hobbies-box" id="hobbies-box">
             <h1>My Hobbies</h1>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
-        </div>
+                <div class="hobbies-circle">
+                    <div class="item">
+                    <img src="img/new_logo_spu01.gif" alt="">
+                    <span>Coding</span>
+                    </div>
+                    <div class="item">
+                    <img src="img/new_logo_spu01.gif" alt="">
+                    <span>Gaming</span>
+                    </div>
+                    <div class="item">
+                    <img src="img/new_logo_spu01.gif" alt="">
+                    <span>Music</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
         <br><br><br>
        <div class="box-profile-table" id="box-profile-table">
         <h1>Projects</h1>
@@ -70,18 +92,21 @@
                             <td colspan="2">All My Project</td>
                         </tr>
                     </tfoot>
-                </table>
+                </table>    
                 <br>
-                <div class="btn">More</div>
+                <a class="btn-nextpage" href="page2.html" target="_blank">See More</a>
+                <br>
         </div>
         <br><br><br>
         <div class="box-contact" id="box-contact">
-            <h2 style=" color: #ffffff;" ><i class="fa-solid fa-address-book"></i> Contact</h2>
+            <h2><i class="fa-solid fa-address-book"></i> Contact</h2>
             <p><i class="fa-solid fa-envelope"></i> papereittiwat7@gmail.com</p>
             <p><i class="fa-solid fa-phone-volume"></i> 097-050-0060</p>
-            <a href="https://www.facebook.com/eittiwat.kunpichai/" style="text-decoration: none;" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
-            <a href="https://www.instagram.com/paper.jpg_/" style="text-decoration: none;" target="_blank"><i class="fa-brands fa-instagram"></i>Instragram</a>
-            <a href="https://github.com/CodeNamePPer" style="text-decoration: none;" target="_blank"><i class="fa-brands fa-github"></i>Github</a>       
+            <h2><i class="fa-solid fa-user-plus"></i> Follow Me</h2>
+            <a href="https://www.facebook.com/eittiwat.kunpichai/"target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
+            <a href="https://www.instagram.com/paper.jpg_/"target="_blank"><i class="fa-brands fa-instagram"></i>Instragram</a>
+            <a href="https://github.com/CodeNamePPer"target="_blank"><i class="fa-brands fa-github"></i>Github</a>
+            <a href="www.linkedin.com/in/eittiwat-kunpichai-589701382"target="_blank"><i class="fa-brands fa-linkedin"></i>Linkedin</a>              
             
     
         </div>
