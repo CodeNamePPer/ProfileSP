@@ -37,7 +37,13 @@
             document.getElementById("Expense-result").textContent = "Expense : " + Expense;
         }
         function bottlecal(){
-            const bottles = parseFloat(document.getElementById("bottle").value)
+            const bottles = parseFloat(document.getElementById("bottle").value);
+            const dozens = Math.floor(bottles / 12);
+            const remain = (bottles % 12);
+            const vat = (remain * 10)*1.07;
+            const total = (dozens * 100) + ((remain * 10));
+            document.getElementById("bottles-remain").textContent = "Bottles-remain-Vat ( Include Vat 7 % ) : " + vat.toFixed(2);
+            document.getElementById("sum").textContent = "Sum ( Include Vat 7 % ) : " + total.toFixed(2);
         }
     </script>
       <h1>BMI Calculate</h1>
@@ -65,9 +71,10 @@
       
       <h1>BottleCal</h1>
       <h3>1 bottle 10 thb</h3>
-      <h3>Promotion 12 bottles 100 thb ( Not Include Vat 7 % )</h3>
+      <h3>Promotion 12 bottles 100 thb (Vat 7 % If Bottles Remain)</h3>
       <input type="number" id="bottle" placeholder="input bottle">
       <button onclick="bottlecal()">Click!</button>
+      <p id="bottles-remain">Bottles-remain-Vat ( Include Vat 7 % ) : </p>
       <p id="sum">Sum ( Include Vat 7 % ) : </p>
 </body>
 <script src="test.js"></script>
